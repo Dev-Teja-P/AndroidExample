@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         mainBinding.button.setOnClickListener {
-            "Hello ${mainBinding.editTextText.text}".also { mainBinding.textView.text = it }
+            "Hello ${mainBinding.editTextText.text}!!".also { mainBinding.textView.text = it }
         }
     }
 }
